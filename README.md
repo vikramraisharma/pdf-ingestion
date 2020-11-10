@@ -1,7 +1,7 @@
 # pdf-ingestion
 
 ## Script built to parse PDF and docx documents as plain text to extract relevant text for a project under SURVICE
-This uses Python modules: pdfottext, docx-text, mysql.connector, filetype found on PyPI
+This uses Python modules: pdftotext, docx-text, mysql.connector, filetype -- all found on PyPI
 
 ## Objective
 ### 1. Obtain document paths from MySQL database stored as VARCHARs in table column
