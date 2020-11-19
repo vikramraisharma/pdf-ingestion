@@ -2,6 +2,7 @@
 
 ## Script built to parse PDF and docx documents as plain text to extract relevant text for a project under SURVICE
 This uses Python modules: pdftotext, docx-text, mysql.connector, filetype -- all found on PyPI
+#### With simple changes, this can quickly be configured to manually parse PDFs if they contain critera that you can define in lines 44-45!
 
 ## Objective
 ### 1. Obtain document paths from MySQL database stored as VARCHARs in table column
